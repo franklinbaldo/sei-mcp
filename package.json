@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsx src/test_parsing.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
-    "@types/node": "^25.0.5"
+    "@types/node": "^25.0.5",
+    "tsx": "^4.22.4"
   }
 }
