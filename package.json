@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "tsx src/test_parsing.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
@@ -15,7 +15,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.25.2",
     "axios": "^1.13.2",
-    "cheerio": "^1.1.2",
+    "cheerio": "^1.0.0",
     "dotenv": "^17.2.3",
     "form-data": "^4.0.5",
     "iconv-lite": "^0.7.2",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.35",
-    "@types/node": "^25.0.5"
+    "@types/node": "^25.0.5",
+    "tsx": "^4.22.4"
   }
 }
